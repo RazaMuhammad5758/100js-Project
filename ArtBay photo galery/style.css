@@ -1,0 +1,133 @@
+body{
+    /* background-color: aqua; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    /* background-color: aqua; */
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 5px;
+    margin-left: 30px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 3px;
+    
+}
+nav img{
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    
+}
+nav button:hover{
+    color: black;
+    transform: translateY(-2px);
+    transition: 0.5s;
+    
+}
+
+nav button{
+    color: grey;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+/* nav button::after{
+    content: "";
+    background-color: black;
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+
+} */
+.line{
+    background-color: black;
+    width: 1px;
+    margin-left: 2px;
+}
+.main{
+    background-image: url('/images/main.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 20%;
+    align-items: flex-start;
+    padding-left: 400px;
+
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+h4{
+    margin-bottom: 5px;
+    font-weight: 500;
+    /* font-weight: bold; */
+
+}
+input{
+    width: 500px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.news{
+    /* max-width: 1000px; */
+    max-width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+.reselts{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.row{
+    flex-basis: 33%;
+    /* gap: 20px; */
+    min-width: 400px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: 1s all ease-in-out;
+
+}
+.row img{
+    height: 250px;
+    width: 100%;
+    
+}
+.row:hover{
+    scale: 1.03;
+
+}
