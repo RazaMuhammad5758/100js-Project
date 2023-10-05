@@ -1,6 +1,7 @@
 const AllBtns = document.querySelectorAll('.AllBtns')
 const wraper = document.querySelector('.img');
 
+
 window.addEventListener("keydown", async (e) => {
     if (e.key === 'Enter') {
         const input = document.querySelector('#input');
@@ -23,6 +24,9 @@ window.addEventListener("keydown", async (e) => {
                         reselts.innerHTML += `
                             <div class="row">
                                 <img src="${img}" alt="">
+                                <a href="${img}?format=jpg" download>Download</a>
+
+
                             </div>
                         `;
                     });

@@ -120,14 +120,36 @@ input{
     padding: 10px;
     margin-bottom: 50px;
     transition: 1s all ease-in-out;
-
-}
-.row img{
-    height: 250px;
-    width: 100%;
     
 }
-.row:hover{
+.row img{
+    transition: 1s all ease-in-out;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.row img:hover{
     scale: 1.03;
 
+}
+a{
+    text-decoration: none;
+    background-color: white;
+    color: blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 1px grey;
+}
+a:hover{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 3px;
+    font-weight: bold;
 }

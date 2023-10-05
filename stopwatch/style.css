@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+h1{
+    color: rgb(46, 190, 32);
+}
+.main{
+    background-color: rgb(13, 46, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 200px;
+    width: 300px;
+}
+#start{
+    width: 60px;
+    cursor: pointer;
+}
+#stop{
+    color: rgb(46, 190, 32);
+    width: 60px;
+    cursor: pointer;
+}
+#reset{
+    width: 60px;
+    cursor: pointer;
+}
+.btns{
+    /* padding: 10px; */
+    gap: 20px;
+}
