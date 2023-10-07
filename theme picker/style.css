@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h3{
+    top: 0;
+}
+.bttn{
+    margin-top: 18%;
+    margin-left: 34%;
+    /* width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; */
+    
+}
+.btn{
+    font-size: 20px;
+    padding: 3px 10px;
+    margin: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    background-color: transparent;
+}
+#next{
+    margin-left: 400px;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+}
