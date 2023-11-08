@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    margin-top: 10%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 0px;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    
+}
+.left, .right{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#leftClr, #rightClr{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    
+    
+}
+#leftCode, #rightCode{
+    /* border: 1px solid black; */
+    width: 60px;
+    height: 20px;
+}
+#left, #right{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(233, 229, 229, 0.5);
+    border: none;
+    font-size: 28px;
+    color: white;
+}
+#left, #right:hover{
+    width: 51px;
+    height: 51px;
+    
+}
+h4{
+    color: black;
+    align-items: center;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 10px;
+    
+}
+
+.output{
+    margin: 5%;
+    background-color: rgb(214, 210, 210);
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+
+}
+@media  screen and (max-width: 770px) {
+    h4{
+        font-size: 14px;
+        /* margin-top: 30%; */
+        color: black;
+    }
+    #left, #right:hover{
+        width: 23px;
+        height: 23px;
+        
+        
+    }
+    #left{
+        margin-left: 10px;
+    }
+    #right{
+        margin-right: 10px;
+    }
+    #left, #right{
+        width: 22px;
+        height: 22px;
+        background-color: rgb(233, 229, 229);
+        border: none;
+        font-size: 18px;
+        color: rgb(24, 22, 22);
+        margin-top: 0%;
+    }
+    .output{
+        margin: 15%;
+        background-color: rgb(214, 210, 210);
+        width: 400px;
+        height: 33px;
+        border-radius: 50px;
+    
+    }
+}
